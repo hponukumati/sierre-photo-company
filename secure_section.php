@@ -14,9 +14,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 echo "Welcome, " . $_SESSION['user']; // Greet the logged-in user
 // Define your users
 $users = [
-    'Mary Smith',
-    'John Wang',
-    'Alex Bington',
+    ---------
     // add more users here
 ];
 
